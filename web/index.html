@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>RunSym — Analisi simmetria corsa</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="wizard">
+    <h2>Setup inquadratura</h2>
+    <ol>
+      <li>Metti il telefono a altezza anca, 2–4 m di distanza.</li>
+      <li>Scegli vista: posteriore (back) o frontale (front).</li>
+      <li>Assicura luce uniforme e corpo intero in frame.</li>
+      <li>Indossa abiti aderenti; evita occhiali scuri/berretti.</li>
+    </ol>
+    <button id="startBtn">Avvia sessione</button>
+  </div>
+  <video id="video" autoplay playsinline muted></video>
+  <canvas id="overlay"></canvas>
+  <div id="metrics">
+    <div>Mirror-MSE: <span id="mse">-</span></div>
+    <div>MPJPE: <span id="mpjpe">-</span></div>
+    <div>Cadence: <span id="cadence">-</span> spm</div>
+  </div>
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

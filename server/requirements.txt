@@ -1,0 +1,9 @@
+opencv-python
+mediapipe
+numpy
+scipy
+flask
+flask-socketio
+eventlet
+pandas
+matplotlib

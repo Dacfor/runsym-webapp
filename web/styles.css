@@ -1,0 +1,5 @@
+body { font-family: system-ui, sans-serif; margin: 2rem; }
+#wizard { max-width: 520px; background: #f5f5f5; padding: 1rem; border-radius: 8px; }
+video { position: absolute; top: 0; left: 0; }
+canvas { position: absolute; top: 0; left: 0; pointer-events: none; }
+#metrics { position: fixed; bottom: 1rem; right: 1rem; background: rgba(0,0,0,0.6); color: #fff; padding: 0.5rem 0.75rem; border-radius: 6px; }
